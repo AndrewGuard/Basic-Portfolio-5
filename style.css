@@ -63,7 +63,7 @@ ul.navigation-bar li:last-child a{
 	float:left;
 }
 
-.about {
+.headline {
 	padding: 20px 10px 20px 0px;
 	text-align: left;
 	font-family:'Georgia', Times, "Times New Roman", serif;
@@ -127,4 +127,42 @@ footer {
 	border-top-style: solid; 
 	border-top-color: #4aaaa5;
 	clear: both;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 90px;
+    height: 40px;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    background-color: #7bc6c2
 }
